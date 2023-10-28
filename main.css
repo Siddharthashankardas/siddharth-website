@@ -1,0 +1,79 @@
+body{
+    background-color: gray;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hello{
+    text-align: center;
+}
+
+h1{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1 :nth-child(1){
+    color: blue;
+}
+h1 :nth-child(2){
+    color: red;
+}
+h1 :nth-child(3){
+    color: yellow;
+}
+h1 :nth-child(4){
+    color: blue;
+}
+h1 :nth-child(5){
+    color: green;
+}
+h1 :nth-child(6){
+    color: red;
+}
+button{
+    color: white;
+    background-color: burlywood;
+    padding: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover{
+    background-color: black;
+}
+.para{
+    color: white;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: aqua;
+}
+.header-div{
+    border: 2px solid red;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+    /* clear: both; */
+}
+.header-div > div{
+    margin:10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.special > span{
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 10px;
+}
+.euro{
+    color: red;
+}
+.pound{
+    color: green;
+}
+.lt{
+    color: brown;
+}
+.amp{
+    color: aquamarine;
+}
